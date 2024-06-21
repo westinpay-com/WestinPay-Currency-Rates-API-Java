@@ -16,7 +16,7 @@ After registering, go to the dashboard and navigate to the "Currency Key" sectio
 
 ### Parameters
 
-- **base**: The base currency for conversion. Default is USD.
+- **base**: The base currency for conversion. Default is USD. // For other currencies, use the currency symbol e.g. base=EUR
 - **output**: Response format, either JSON or XML. Default is JSON.
 - **api_key**: Your unique API key. Replace YOUR-API-KEY with your actual API key.
 
@@ -26,7 +26,7 @@ Please note that your API key allows for up to 5000 monthly requests. This limit
 
 ### Code Example
 
-To fetch the latest rates using cURL and authenticate with your API key, use the following command:
+To fetch the latest rates using JAVA and authenticate with your API key, use the following command:
 
 ```sh
 import java.net.URL;
